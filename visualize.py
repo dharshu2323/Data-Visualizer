@@ -44,7 +44,7 @@ if uploaded_file is not None:
         
         # Additional columns for Pie Chart
         if plot_type == 'Pie Chart':
-            other_axes = st.multiselect('Select additional columns for Pie Chart', options=columns, default=[])
+            other_axes = st.multiselect('Select additional columns Pie Chart', options=columns, default=[])
 
     # Generate the plot based on user selection
     if st.button('Generate Plot'):
